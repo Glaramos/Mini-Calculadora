@@ -1,4 +1,9 @@
-# MiniCalculadoraApp
+# Mini-CalculadoraApp🔢
+
+![cal](https://user-images.githubusercontent.com/91395402/222933512-d30658af-8d7d-4fc6-8b91-efc6f3a718ff.jpg)
+
+
+# Mini-CalculadoraApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
