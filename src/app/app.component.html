@@ -1,0 +1,28 @@
+<div class="container">
+<div class="row mt-5">
+  <div class="col-lg-6 offset-lg-3">
+      <b><h2 class="text-center fontTitle"><h1>🖥{{title}}</h1></h2></b>
+      <br>
+
+      <div class="card">
+          <div class="card body">
+            <div class="card">      
+                      <div class="text-center mb-10">
+                <form>
+
+                  <h5>🔢  <input type="number" [(ngModel)]="numero1" name="numero1"><br/><br/></h5>
+                  
+                  <h5>🔢 <input type="number" [(ngModel)]="numero2" name="numero2"><br/><br/></h5>
+                  
+                  <input type="submit" value="➕" (click)="sumar()" class="btn btn-secondary">
+
+                  <input type="submit" value="➖" (click)="restar()" class="btn btn-danger">
+                  </form> 
+              </div>              
+  
+              <button class="btn btn-success btn-lg btn-block mt-2" ><h3><b><p>📝Resultado: {{resultado}}</p></b></h3></button>
+          </div>
+      </div>
+  </div>
+
+</div>
